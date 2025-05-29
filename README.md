@@ -1,9 +1,9 @@
 <h1 align="center">Los Angeles Crime Trends (2020–Present): A Python-Powered Public Safety Analysis</h1>
 
 ## 📊 Overview
-This project analyzes crime trends in the City of Los Angeles using publicly available LAPD datasets covering 2020 through early 2023. It uses Python and key libraries like `pandas`, `matplotlib`, `seaborn`, and `plotly` to explore temporal, geographic, and demographic crime patterns. Originally completed as a group assignment, this standalone version was fully restructured, reinterpreted, and replicated by me using a reproducible Jupyter Notebook.
+This project analyzes crime trends in the City of Los Angeles using publicly available LAPD datasets covering 2020 through early 2023. It uses Python and key libraries like pandas, matplotlib, seaborn, and plotly to explore temporal, geographic, and demographic crime patterns. Originally completed as a group assignment, this standalone version was fully restructured, reinterpreted, and replicated by me using a reproducible Jupyter Notebook.
 
-The project combines data cleaning, hypothesis testing, and rich visual storytelling to uncover actionable insights on when, where, and how crimes occur in LA.
+The analysis processes 843,000+ crime records across 28 features (≈180MB), showcasing my ability to handle real-world, large-scale datasets without SQL or cloud infrastructure. The project combines full-cycle data cleaning, statistical hypothesis testing, and rich visual storytelling to uncover actionable insights on when, where, and how crimes occur in LA.
 
 ## 📌 Key Questions Explored
 1. **Temporal Trends** – How do crime patterns vary by year, month, and day of the week?
