@@ -70,11 +70,3 @@ For inquiries, collaborations, or feedback:
 
 - 📧 Awaleiabdi@outlook.com  
 - 💼 [LinkedIn – Awale Abdi](https://www.linkedin.com/in/awale-abdi/)
-"""
-
-readme_path = "/mnt/data/README.md"
-with open(readme_path, "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-readme_path
-
