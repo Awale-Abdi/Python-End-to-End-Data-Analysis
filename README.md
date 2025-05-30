@@ -2,39 +2,55 @@
 
 ## 📊 Overview
 
-This project analyzes crime trends in the City of Los Angeles using publicly available LAPD datasets covering 2020 through early 2023. It uses Python and key libraries like pandas, matplotlib, seaborn, and plotly to explore temporal, geographic, and demographic crime patterns. Originally completed as a group assignment, this standalone version was fully restructured, reinterpreted, and replicated by me using a reproducible Jupyter Notebook.
+This solo-developed project explores over **843,000 Los Angeles crime reports** (2020–2023) using **Python-powered data analysis** to uncover when, where, and how crimes occur. Originally a group case study, I fully **replicated and restructured the project independently** in a Jupyter Notebook, applying a structured and reproducible workflow from raw ingestion to insight.
 
-The analysis processes 843,000+ crime records across 28 features (≈180MB), showcasing my ability to handle large-scale, real-world datasets. Due to GitHub's file size limits, I hosted the raw dataset on AWS S3, illustrating my familiarity with cloud usage and end-to-end data accessibility thinking.
+With over **180MB of real-world LAPD data**, this project demonstrates my ability to work with **large-scale datasets**, handle **complex feature engineering**, and conduct **hypothesis-driven public safety analysis**. I hosted the raw CSV on **AWS S3** to ensure accessibility and demonstrate end-to-end thinking beyond GitHub’s file size limits.
 
-This project combines full-cycle data cleaning, statistical hypothesis testing, and rich visual storytelling to uncover actionable insights on when, where, and how crimes occur in LA.
+The project blends **data cleaning, geospatial mapping, statistical testing**, and **visual storytelling**—showcasing practical skills in both **data science** and **civic analytics**.
 
-## 📌 Key Questions Explored
-1. **Temporal Trends** – How do crime patterns vary by year, month, and day of the week?
-2. **Hotspots** – Which neighborhoods or coordinates report the most incidents?
-3. **Crime Type & Weapon Use** – What are the most common offenses and are weapons involved?
-4. **Demographics (when available)** – Are certain groups disproportionately impacted?
-5. **COVID-19 Impact** – Did 2020–2021 show unique spikes or drops in activity?
+---
 
-## 🧠 Methodology
+## 📌 Key Business Questions Answered
 
-- **Language**: Python (Jupyter Notebook)
-- **Libraries**: `pandas`, `matplotlib`, `seaborn`, `plotly`, `scipy.stats`
-- **Dataset**: [Crime Data from 2020 to Present – LAPD Open Data Portal](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data)
-- **Approach**:
-  - Imported and cleaned raw CSV data (~270MB)
-  - Handled missing values, date formatting, and category normalization
-  - Generated descriptive and inferential statistics
-  - Performed hypothesis testing on temporal and spatial crime patterns
-  - Created both static and interactive visuals
+1. **What are the major crime trends by year, month, and day?**  
+2. **Where do crimes cluster across Los Angeles?**  
+3. **Which crime types dominate, and how often are weapons involved?**  
+4. **How do age, sex, and other demographics affect crime patterns?**  
+5. **What effect did COVID-19 have on public safety metrics?**
+
+---
+
+## 🧠 Technical Approach
+
+- **Tools & Stack**:  
+  `Python`, `pandas`, `seaborn`, `matplotlib`, `plotly`, `folium`, `scipy.stats`, `Jupyter Notebook`
+  
+- **Data Source**:  
+  LAPD Open Data Portal – [Crime Data from 2020 to Present](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data)
+
+- **Core Techniques**:
+  - Cleaned and transformed 28-column dataset across 843,000+ rows
+  - Performed exploratory data analysis and feature extraction (date, location, demographics)
+  - Applied statistical tests (e.g., t-tests, z-tests) to validate temporal and spatial trends
+  - Created **custom null-value diagnostic functions** to visualize data quality
+  - Built interactive heatmaps and visual dashboards for geographic insights
+
+---
 
 ## ⚙️ Project Highlights
 
-- Cleaned and prepared 500K+ crime reports across over 120 variables.
-- Built exploratory visuals on yearly/monthly trends, geographic clustering, and peak crime days.
-- Hypothesis tested for significance in trends like:
-  - Day-of-week impact on crime frequency
-  - Location-based crime density
-- Used heatmaps, histograms, bar graphs, and scatterplots to highlight key findings.
+- 🧹 Cleaned & preprocessed **500K+** valid crime entries after filtering invalid/missing data  
+- 📈 Built visual analyses covering:
+  - **Temporal patterns** (year/month/day heatmaps)
+  - **Crime type frequency** (top 20 offenses, weapon breakdowns)
+  - **Demographics** (age, sex, frequency histograms)
+  - **Spatial distribution** using `folium` and `HeatMap`
+- ✅ Used reproducible practices like fixed random seed and modular cell blocks  
+- 📊 Conducted **statistical testing** on:
+  - Weekly crime fluctuations (e.g., Friday–Saturday peaks)
+  - Area-level clustering to validate police resource allocation
+
+---
 
 ## 📁 Project Structure
 
@@ -42,30 +58,55 @@ This project combines full-cycle data cleaning, statistical hypothesis testing, 
   - `Crime_Data_from_2020_to_Present.csv` – unprocessed original crime data
 
 - `Outputs/`  
-  - `Crimes in Los Angeles.ipynb` –  cleaned, analyzed, and visualized dataset with key insights 
-
-## 🧩 Challenges & Solutions
-
-| Challenge | Solution |
-|----------|----------|
-| Large dataset with missing/mislabeled fields | Standardized column types, dropped NAs where justified |
-| Coordinates had outliers | Filtered to valid LA geobounds |
-| Crime codes needed contextual translation | Mapped codes to descriptions using LAPD metadata |
-| COVID-19 impact skewing trends | Analyzed 2020 separately to control for anomaly |
-
-## 📈 Sample Insights
-
-- **Crime peaked in 2022**, with ~150K+ incidents, showing recovery after 2020 dip.
-- **Friday and Saturday** saw the highest crime rates, while **Sunday and Tuesday** were lowest.
-- **Downtown LA, Hollywood, and South LA** consistently reported the most crimes.
-- **Assaults and vehicle-related crimes** dominated, with increasing reports of weapon usage post-2021.
-- No direct causality proven, but visual correlations suggest post-lockdown spikes.
+  - `Crimes in Los Angeles.ipynb` –  cleaned, analyzed, and visualized dataset with key insights
 
 ---
 
-### **Contact**
+## 🧩 Data Challenges & Smart Fixes
 
-For inquiries, collaborations, or feedback:
+| Problem | Solution |
+|--------|----------|
+| Missing age/sex/location data | Diagnosed and conditionally excluded |
+| Coordinate outliers | Filtered to within **Los Angeles geo-boundaries** |
+| Inconsistent crime labels | Mapped using LAPD metadata |
+| COVID-19 shock effect | Segmented 2020 as its own trend year |
+
+---
+
+## 🔍 Key Insights
+
+- **Crime peaked in 2022**, showing urban rebound post-2020 lockdown dip  
+- **Friday & Saturday** are consistently the most dangerous days  
+- **Downtown LA, Hollywood, and South LA** had the highest density of crimes  
+- **Battery, burglary, and vandalism** were the most reported offenses  
+- **Weapon use increased** in assaults post-2021, possibly linked to pandemic-related stressors  
+- Victims aged **20–50** accounted for over 60% of incidents  
+
+---
+
+## 🔑 Why This Project Matters
+
+This project showcases my:
+
+- ✅ Proficiency in **exploratory data analysis (EDA)** and **visual analytics**  
+- ✅ Ability to manage and extract insight from **large real-world datasets**  
+- ✅ Use of **Python for public interest data science**  
+- ✅ Technical depth in **data cleaning, transformation, and reproducibility**  
+- ✅ Communication skills through **clear storytelling** and **business-relevant interpretation**
+
+Ideal for roles in:
+- **Data Analysis**
+- **Public Safety & Urban Analytics**
+- **Business Intelligence**
+- **Python-based Data Science**
+
+---
+
+## 📬 Contact
+
+Let’s connect or collaborate:
 
 - 📧 Awaleiabdi@outlook.com  
 - 💼 [LinkedIn – Awale Abdi](https://www.linkedin.com/in/awale-abdi/)
+
+
