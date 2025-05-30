@@ -94,12 +94,6 @@ This project showcases my:
 - ✅ Technical depth in **data cleaning, transformation, and reproducibility**  
 - ✅ Communication skills through **clear storytelling** and **business-relevant interpretation**
 
-Ideal for roles in:
-- **Data Analysis**
-- **Public Safety & Urban Analytics**
-- **Business Intelligence**
-- **Python-based Data Science**
-
 ---
 
 ## 📬 Contact
