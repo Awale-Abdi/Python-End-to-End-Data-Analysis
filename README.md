@@ -16,7 +16,7 @@ The analysis processes 843,000+ crime records across 28 features (≈180MB), sho
 
 - **Language**: Python (Jupyter Notebook)
 - **Libraries**: `pandas`, `matplotlib`, `seaborn`, `plotly`, `scipy.stats`
-- **Dataset**: [Crime Data from 2020 to Present – LAPD Open Data Portal](https://data.lacity.org)
+- **Dataset**: [Crime Data from 2020 to Present – LAPD Open Data Portal](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data)
 - **Approach**:
   - Imported and cleaned raw CSV data (~270MB)
   - Handled missing values, date formatting, and category normalization
@@ -60,7 +60,7 @@ The analysis processes 843,000+ crime records across 28 features (≈180MB), sho
 
 ## 🔗 Data Source
 
-- [LAPD Crime Data Portal](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8)
+- [LAPD Crime Data Portal](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data)
 
 ---
 
