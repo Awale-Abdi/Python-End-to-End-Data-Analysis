@@ -58,10 +58,6 @@ The analysis processes 843,000+ crime records across 28 features (≈180MB), sho
 - **Assaults and vehicle-related crimes** dominated, with increasing reports of weapon usage post-2021.
 - No direct causality proven, but visual correlations suggest post-lockdown spikes.
 
-## 🔗 Data Source
-
-- [LAPD Crime Data Portal](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data)
-
 ---
 
 ### **Contact**
