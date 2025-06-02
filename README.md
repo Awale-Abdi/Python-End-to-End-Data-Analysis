@@ -86,8 +86,8 @@ The project blends **data cleaning, geospatial mapping, statistical testing**, a
 
 ## 🧠 Skills Demonstrated
 
-- **Data Cleaning & Preprocessing**: Handled 843K+ LAPD crime reports, managing missing values, date formatting, and geolocation outliers.
-- **Exploratory Data Analysis (EDA)**: Uncovered crime trends by time, type, and location using Python-based analysis.
+- **Data Cleaning & Preprocessing**: Handled 843K+reports, managing missing values, date formatting, and geolocation outliers.
+- **Exploratory Data Analysis (EDA)**: Uncovered crime trends by time, type, and location.
 - **Statistical Testing**: Applied t-tests and z-tests to validate weekly and regional crime differences.
 - **Geospatial Mapping**: Used `folium` and heatmaps to visualize crime hotspots across Los Angeles.
 - **Python Visualization**: Built dynamic charts with `seaborn`, `matplotlib`, and `plotly` for public safety insights.
