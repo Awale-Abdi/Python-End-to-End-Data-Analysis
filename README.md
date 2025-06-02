@@ -45,10 +45,10 @@ The project blends **data cleaning, geospatial mapping, statistical testing**, a
   - **Crime type frequency** (top 20 offenses, weapon breakdowns)
   - **Demographics** (age, sex, frequency histograms)
   - **Spatial distribution** using `folium` and `HeatMap`
-- ✅ Used reproducible practices like fixed random seed and modular cell blocks  
 - 📊 Conducted **statistical testing** on:
   - Weekly crime fluctuations (e.g., Friday–Saturday peaks)
   - Area-level clustering to validate police resource allocation
+- ✅ Used reproducible practices like fixed random seed and modular cell blocks  
 
 ---
 
@@ -86,14 +86,14 @@ The project blends **data cleaning, geospatial mapping, statistical testing**, a
 
 ## 🧠 Skills Demonstrated
 
-- **Data Cleaning & Preprocessing**: Handled 843K+ LAPD crime reports, managing missing values, date formatting, and geolocation outliers.
-- **Exploratory Data Analysis (EDA)**: Uncovered crime trends by time, type, and location.
-- **Statistical Testing**: Applied t-tests and z-tests to validate weekly and regional crime differences.
-- **Geospatial Mapping**: Used `folium` and heatmaps to visualize crime hotspots across Los Angeles.
-- **Python Visualization**: Built dynamic charts with `seaborn`, `matplotlib`, and `plotly` for public safety insights.
-- **Cloud Integration**: Hosted large datasets on AWS S3, showcasing scalable data handling.
-- **Reproducible Workflow**: Structured code for clarity and reuse using modular cells and random seed control.
-- **Civic Data Science**: Delivered actionable insights on urban safety using real-world crime data.
+- **Data Cleaning & Preprocessing**: Processed 843K+ crime reports by resolving nulls, fixing date inconsistencies, and filtering geographic outliers.  
+- **Exploratory Data Analysis (EDA)**: Identified actionable trends across time, location, crime type, and demographics.  
+- **Statistical Testing**: Validated weekly and regional patterns using t-tests and z-tests.  
+- **Geospatial Mapping**: Visualized high-crime areas using `folium`-powered heatmaps and point clusters.  
+- **Python Visualization**: Built engaging, publication-ready charts with `seaborn`, `matplotlib`, and `plotly`.  
+- **Cloud Integration**: Hosted datasets on AWS S3 to enable smooth access beyond GitHub limits.  
+- **Reproducible Workflow**: Ensured consistent outputs with structured code blocks and seed control.  
+- **Public Sector Data Science**: Applied analytical methods to real-world government data for civic insight.
 
 ---
 
