@@ -2,7 +2,7 @@
 
 ## 📊 Overview
 
-This solo-developed project explores over **843,000 Los Angeles crime reports** (2020–2023) using **Python-powered data analysis** to uncover when, where, and how crimes occur. Originally a group case study, I fully **replicated and restructured the project independently** in a Jupyter Notebook, applying a structured and reproducible workflow from raw ingestion to insight.
+This solo-developed project explores over **843,000 Los Angeles crime reports** (2020–2023) using **Python-powered data analysis** to uncover when, where, and how crimes occur. I executed the full project lifecycle in a Jupyter Notebook, applying a structured and reproducible workflow from raw ingestion to insight.
 
 With over **180MB of real-world LAPD data**, this project demonstrates my ability to work with **large-scale datasets**, handle **complex feature engineering**, and conduct **hypothesis-driven public safety analysis**. I hosted the raw CSV on **AWS S3** to ensure accessibility and demonstrate end-to-end thinking beyond GitHub’s file size limits.
 
@@ -58,7 +58,7 @@ The project blends **data cleaning, geospatial mapping, statistical testing**, a
   - `Crime_Data_from_2020_to_Present.csv` – unprocessed original crime data
 
 - `Outputs/`  
-  - `Crimes in Los Angeles.ipynb` –  cleaned, analyzed, and visualized dataset with key insights
+  - `Crimes in Los Angeles.ipynb` – cleaned, analyzed, and visualized dataset with key insights
 
 ---
 
@@ -102,5 +102,3 @@ Let’s connect or collaborate:
 
 - 📧 Awaleiabdi@outlook.com  
 - 💼 [LinkedIn – Awale Abdi](https://www.linkedin.com/in/awale-abdi/)
-
-
