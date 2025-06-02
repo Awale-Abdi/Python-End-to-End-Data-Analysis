@@ -84,15 +84,16 @@ The project blends **data cleaning, geospatial mapping, statistical testing**, a
 
 ---
 
-## 🔑 Why This Project Matters
+## 🧠 Skills Demonstrated
 
-This project showcases my:
-
-- ✅ Proficiency in **exploratory data analysis (EDA)** and **visual analytics**  
-- ✅ Ability to manage and extract insight from **large real-world datasets**  
-- ✅ Use of **Python for public interest data science**  
-- ✅ Technical depth in **data cleaning, transformation, and reproducibility**  
-- ✅ Communication skills through **clear storytelling** and **business-relevant interpretation**
+- **Data Cleaning & Preprocessing**: Handled 843K+ LAPD crime reports, managing missing values, date formatting, and geolocation outliers.
+- **Exploratory Data Analysis (EDA)**: Uncovered crime trends by time, type, and location using Python-based analysis.
+- **Statistical Testing**: Applied t-tests and z-tests to validate weekly and regional crime differences.
+- **Geospatial Mapping**: Used `folium` and heatmaps to visualize crime hotspots across Los Angeles.
+- **Python Visualization**: Built dynamic charts with `seaborn`, `matplotlib`, and `plotly` for public safety insights.
+- **Cloud Integration**: Hosted large datasets on AWS S3, showcasing scalable data handling.
+- **Reproducible Workflow**: Structured code for clarity and reuse using modular cells and random seed control.
+- **Civic Data Science**: Delivered actionable insights on urban safety using real-world crime data.
 
 ---
 
